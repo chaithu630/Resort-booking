@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+    
+}
+.con form h1{
+    color: chartreuse;
+}
+/*body{
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    align-items: center;
+    background-image: url(https://e0.pxfuel.com/wallpapers/581/967/desktop-wallpaper-hotel-golden-eye-river-golden-hotel-beautiful-tranquil-lake-summer-reflection-trees-greenery-jamaica-eye-forest-resort.jpg);
+    
+    background-size: cover;
+    
+
+}*/
+#a{
+    margin-left:100px;
+    border-radius: 8px;
+    
+    
+}
+#b{
+    margin-left: 37px;
+    border-radius: 8px;
+}
+#c{
+    margin-left: 78px;
+    border-radius:8px ;
+}
+.con{
+    position: relative;
+    height:500px;
+    width: 540px;
+    background:black;
+    border-style: solid;
+    
+
+    
+    border-radius:20px;
+    overflow: hidden;
+    
+}
+.con::before{
+    content: '';
+    position: absolute;
+    top: -50px;
+    width: -50px;
+    height: 420px;
+    width: 380px;
+    background: linear-gradient(0deg,transparent,transparent,red,red,red);
+    transform-origin: bottom right;
+    animation:animate 3s linear infinite;
+    
+}
+
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.con form{
+    position:absolute;
+    inset: 4px;
+    padding: 50px 40px;
+    background: black
+    
+    
+    
+}
+input{
+    height:1cm;
+    width:6cm;
+    
+}
+
+
+
+.con span{
+    color: aqua;
+    text-size-adjust: 30px;
+}
+.border{
+    margin: 0;
+    padding: 0;
+}
+.border::before{
+    content: '';
+    position: absolute;
+    top: -50px;
+    width: -50px;
+    height: 420px;
+    width: 380px;
+    background: linear-gradient(0deg,transparent,transparent,aqua,aqua,aqua);
+    transform-origin: bottom right;
+    animation:animate 4s linear infinite;
+    animation-name: -1.5s;
+    
+  
+
+}
+a{
+    color:red
+    
+    
+}
+button{
+    size-adjust: 70px;
+    height:50px;
+    width:5cm;
+    border-radius: 10px;
+    background-color: blue;
+    color: antiquewhite;
+    
+}
+#img{
+   
+    height: 500px;
+    width: 33cm;
+    background-color: darkmagenta;
+    
+    
+    text-align: center;
+    padding-top: 28px;
+    padding-right: 500px;
+    color:chartreuse;
+    font-size:25px;
+    animation: ani ;
+    animation-duration: 18s;
+
+    animation-iteration-count: infinite;
+    position: absolute;
+background-position:center;
+    
+    
+    
+    
+    
+    
+}
+
+@keyframes ani{
+    0%{
+          background-image:url(https://www.keralatourism.org/images/service-providers/photos/property-2708-profile-2423-20180621103812.jpg);
+    background-size: cover;
+        }
+
+    25%{
+       /* background-image: url(https://wallpaperaccess.com/full/3434639.jpg);*/
+       background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/21/b2/4e/hotel-lobby.jpg?w=700&h=-1&s=1);
+    background-size: cover;
+    }
+    50%{
+        background-image: url(https://wallpapercrafter.com/desktop/41524-Banyan-Tree-Phuket-Thailand-Best-hotels-tourism-travel-resort-booking-vacation-pool.jpg);
+    background-size: cover;
+    }
+    75%{
+        background-image: url(https://images.alphacoders.com/498/498263.jpg);
+    background-size: cover;
+    }
+    90%{
+        background-image: url(https://www.theluxevoyager.com/wp-content/uploads/2018/11/Banyan-Tree-Sanya-971x546.jpg);
+    background-size: cover;
+    }
+    100%{background-image:url(https://s2.best-wallpaper.net/wallpaper/2560x1440/1705/Resort-evening-pool-chair-sofa_2560x1440.jpg);
+   background-size: cover;
+    }
+    60%{
+        background-image: url(https://wallpaperaccess.com/full/3434639.jpg);
+        background-size: cover;
+    }
+}
+h4{
+    color: black;
+}
+ul{
+display: inline-flex;
+list-style: none;
+
+color:antiquewhite;
+font-size:20px;
+padding-top: 30px;
+height:1.7cm;
+padding-left:500px;
+font-weight:600;
+font-size: 25px;
+
+}
+
+
+
+
+.active,ul li:hover{
+    background:rgb(128, 0, 38);
+    border-radius: 8px;
+    box-sizing: content-box;
+    cursor: pointer;
+    
+    
+
+
+    
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.ba{
+
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    align-items: center;
+   /* background-image: url(https://e0.pxfuel.com/wallpapers/581/967/desktop-wallpaper-hotel-golden-eye-river-golden-hotel-beautiful-tranquil-lake-summer-reflection-trees-greenery-jamaica-eye-forest-resort.jpg);*/
+    background-color: black;
+    background-size:cover;
+    
+    
+
+    
+}
+select{
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    
+    
+}
+img{
+    background-size: 90px;
+}
+#contact{
+   
+    
+    padding: 90px;
+    text-align: center;
+    background-image: url(https://www.usnews.com/dims4/USNEWS/958cfd4/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F4b%2F27%2Fe5e8dd7f4baca9e1bcae165b54ae%2Focean-key-resort-reagan-pool-credit-ocean-key-resort-spa.jpg);
+    background-size: cover;
+    width: 33cm;
+}
+pre{
+    font-size: 20px;
+}
+#re{
+display: flex;
+
+
+}
+
+img:hover{
+    
+    transform: scale(1.1);
+    transition-duration: 2s;
+    
+
+}
+#re div:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    
+
+}
+#div1{
+    height: 100vh;
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.dellaresorts.com/images/6-luxury-triva2.png);
+
+}
+#container1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.dellaresorts.com/images/6-luxury-triva2.png);
+   background-size:cover; 
+}
+#fr{
+    height: 500px;
+    width: 400px;
+    background-color: rgba(225,225,225,0.1);
+    box-shadow: 10px 10px 10px -5px rgb(0,0,0.4);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+}
+
+
